@@ -52,7 +52,7 @@ Fuente: Helvetica
 
 Buenas, para este challenge he elegido el framework vue 2 ya que es con el que más experiencia tengo.
 
-Paso a explicar un poco como lo tengo estructurado y las distintas decisiones que he tomado.
+Paso a explicar como lo tengo estructurado y las distintas decisiones que he tomado.
 
 Para empezar he usado html básico para crear los distintos componentes (sin usar librerías estilo bootstrap, vuetify, element.io, material o alguna de estas librerías de componentes)
 
@@ -72,14 +72,14 @@ En cuanto a la estructura, he creado varias carpetas:
 
 <p>Views: En la cual están las vistas de la aplicación (En este caso solo tenemos una vista RoomsList)</p>
 <p>Components: donde aparecen los distintos componentes que vamos a utilizar en las vistas.
-En este caso he dejado el componente RoomComponent a este mismo nivel porque nada mas teníamos componentes de este contexto pero si por ejemplo hubiera distintos modelos o funcionalidades o alguna manera de agruparlos pues este componente iría dentro de una carpeta que se llamaría Rooms por ejemplo.
+En este caso he dejado el componente RoomComponent a este mismo nivel porque nada mas teníamos componentes de este contexto pero si por ejemplo hubiera distintos modulos,funcionalidades.. pues este componente iría dentro de una carpeta que se llamaría Rooms por ejemplo.
 
-Dentro de components hay otra carpeta que se llama Shared, en la cual he metido los componentes que son reutilizables como por ejemplo el componente ModalComponent, el cuál he creado para las modales de añadir y actualizar sala o para el mensaje de confirmación del borrado de la sala.
-El otro componente RouteView, bueno es un poco de apoyo para la redireccion que he simulado en el router.</p>
+Dentro de components hay otra carpeta que se llama Shared, en la cual he metido los componentes que son reutilizables como, por ejemplo, el componente ModalComponent, el cuál he creado para las modales de añadir y actualizar sala o para el mensaje de confirmación del borrado de la sala.
+El otro componente RouteView, sirve de apoyo para la redireccion que he simulado en el router.</p>
 
 <p>Router: aqui en el fichero índex.js quedan configuradas las distintas rutas de la aplicación, con su lazy loading en los componentes, para una carga mas eficiente.</p>
 
-<p>Services: en esta carpeta esta configurado axios en el fichero service.js en el cual si hubiera mas complejidad o tuviéramos distintos backends podríamos usar el interceptor para construir la url correcta a cada backend por ejemplo. En este fichero pues se encapsula un poco todo y luego en ficheros como roomsService.js pues ya configuro los distintos métodos con los endpoints que sean necesarios.
+<p>Services: en esta carpeta esta configurado axios en el fichero service.js en el cual si hubiera mas complejidad o tuviéramos distintos backends podríamos usar el interceptor para construir la url correcta a cada backend por ejemplo. En este fichero se encapsula todo y luego en ficheros como roomsService.js pues se configuran los distintos métodos con los endpoints que sean necesarios.
 De esta forma podríamos tener distintos ficheros por cada funcionalidad o agrupación que queramos y tener de manera mas organizada el código y en el service.js toda la configuración de axios (cabeceras, interceptores, apikeys..etc)</p>
 
 <p>Assets > styles: Dentro de esta carpeta he creado una hoja de estilos generales con los colores que me pasasteis en variables y los border radius también en variables para usarlos en todo el proyecto.
@@ -88,5 +88,5 @@ Y bueno tambien hay estilos generales de los botones aquí.</p>
 
 He creado la pantalla a través del diseño que me mandasteis y le he añadido los botones de eliminar, y el filtro en la esquina superior derecha con los dos inputs para filtrar por capacidad y ocupación. No sabia muy bien la lógica de filtrado y yo he puesto que en cada uno de los inputs pongas lo máximo que quieras filtrar, es decir aparecerán los valores inferiores o iguales a ese tope que se ha introducido por pantalla.
 
-En cuanto a dificultades, pues dificultad como tal no es pero en el día a día no suelo usar etiquetas html como tal, normalmente creamos componentes bajo alguna librería como las nombradas anteriormente de bootstrap, vuetify, element.io, alguna propia de la empresa.. 
+En cuanto a dificultades, como tal no es una dificultad, pero en el día a día no suelo usar etiquetas html como tal, normalmente creamos componentes bajo alguna librería como las nombradas anteriormente de bootstrap, vuetify, element.io, alguna propia de la empresa.. 
 
