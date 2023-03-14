@@ -73,7 +73,7 @@ En cuanto a la estructura, he creado varias carpetas:
 
 <p>Views: En la cual están las vistas de la aplicación (En este caso solo tenemos una vista RoomsList)</p>
 <p>Components: donde aparecen los distintos componentes que vamos a utilizar en las vistas.
-En este caso he dejado el componente RoomComponent a este mismo nivel porque nada mas teníamos componentes de este contexto pero si por ejemplo hubiera distintos modulos,funcionalidades.. pues este componente iría dentro de una carpeta que se llamaría Rooms por ejemplo.
+En este caso he dejado el componente RoomComponent a este mismo nivel porque solo teníamos componentes de este contexto pero si por ejemplo hubiera distintos modulos,funcionalidades.. pues este componente iría dentro de una carpeta que se llamaría Rooms por ejemplo.
 
 Dentro de components hay otra carpeta que se llama Shared, en la cual he metido los componentes que son reutilizables como, por ejemplo, el componente ModalComponent, el cuál he creado para las modales de añadir y actualizar sala o para el mensaje de confirmación del borrado de la sala.
 El otro componente RouteView, sirve de apoyo para la redireccion que he simulado en el router.</p>
