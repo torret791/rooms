@@ -64,6 +64,7 @@ He usado:
 <li>Vue-click-outside para una funcionalidad de clicar fuera del contenedor de los filtros y que se oculte.</li>
 <li>Pug para que sea mas legible el html con las tabulaciones y también ahorrar en lineas de código.</li>
 <li>Sass para estilar los componentes.</li>
+<li>Api mocha para simular la petición al backend.</li>
  </ul>
 
 Podría haber usado Vuex, pero no lo he usado para este proyecto ya que no veía una complejidad excesiva de las relaciones de sus componentes ni tampoco es una aplicación que muchos componentes necesiten esa información.
