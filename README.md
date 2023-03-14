@@ -87,7 +87,7 @@ De esta forma podríamos tener distintos ficheros por cada funcionalidad o agrup
 Y bueno tambien hay estilos generales de los botones aquí.</p>
 
 
-He creado la pantalla a través del diseño que me mandasteis y le he añadido los botones de eliminar, y el filtro en la esquina superior derecha con los dos inputs para filtrar por capacidad y ocupación. No sabia muy bien la lógica de filtrado y yo he puesto que en cada uno de los inputs pongas lo máximo que quieras filtrar, es decir aparecerán los valores inferiores o iguales a ese tope que se ha introducido por pantalla.
+He creado la pantalla a través del diseño requerido y le he añadido los botones de eliminar, y el filtro en la esquina superior derecha con los dos inputs para filtrar por capacidad y ocupación. Como no se especificaba la lógica de los filtros, he puesto que en cada uno de los inputs pongas lo máximo que quieras filtrar, es decir aparecerán los valores inferiores o iguales a ese tope que se ha introducido por pantalla.
 
 En cuanto a dificultades, como tal no es una dificultad, pero en el día a día no suelo usar etiquetas html como tal, normalmente creamos componentes bajo alguna librería como las nombradas anteriormente de bootstrap, vuetify, element.io, alguna propia de la empresa.. 
 
