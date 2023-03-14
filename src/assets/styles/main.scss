@@ -1,0 +1,35 @@
+
+:root{
+    --primary-color: #2E344D;
+    --secondary-color: #F5F7FB;
+    --border-radius-container: 26px;
+    --border-radius-inputs-buttons: 12px;
+}
+
+
+.btn{
+    background: var(--primary-color);
+    height: 36px;
+    color:white;
+    border-radius: var(--border-radius-inputs-buttons);
+    border: 1px solid var(--primary-color);
+    width: 50%;
+    &:hover{
+      color: rgba(255, 255, 255, 1) !important;
+      box-shadow: 0 2px 8px var(--primary-color);
+      transition: all 0.2s ease;
+    }
+    &--delete{
+      color: red;
+      background-color: #FDE1E1;
+      border-color:#F56C6C;
+      &:hover{
+        background-color: #F56C6C;
+        color:white;
+      }
+    }
+    &--add{
+        width: 150px;
+        margin-bottom: 24px;
+    }
+}
